@@ -7,11 +7,11 @@ const char* SubscribeTo = "esp/led-kast/out";
 const char* SubscribeFrom = "esp/led-kast/in";
 
 // WiFi & MQTT Server
-const char* ssid = "ELS24";
-const char* password = "Evy.Wilt.Internet!";
+const char* ssid = "MySSID";
+const char* password = "MyPassWD";
 const char* mqtt_server = "192.168.1.10";
-const char* mqttUser = "openhabian";
-const char* mqttPassword = "openhabian";
+const char* mqttUser = "mqttUser";
+const char* mqttPassword = "mqttPasswd";
 
 WiFiClient espClient;
 PubSubClient pubClient(espClient);
