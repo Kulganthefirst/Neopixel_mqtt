@@ -7,11 +7,11 @@ const char* SubscribeTo = "home/groundfloor/diningroom/neopixel-kast/color";
 const char* SubscribeFrom = "home/groundfloor/diningroom/neopixel-kast/color";
 
 // WiFi & MQTT Server
-const char* ssid = "ELS24";
-const char* password = "Evy.Wilt.Internet!";
+const char* ssid = "MySSID";
+const char* password = "MyPASSWD";
 const char* mqtt_server = "192.168.1.10";
-const char* mqttUser = "openhabian";
-const char* mqttPassword = "openhabian";
+const char* mqttUser = "mqttUser";
+const char* mqttPassword = "mqttPASSWS";
 
 WiFiClient espClient;
 PubSubClient pubClient(espClient);
